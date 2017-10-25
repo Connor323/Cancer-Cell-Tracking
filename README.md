@@ -29,7 +29,11 @@ matching.py // calculate feature vector for each cell and match cells.
 ```
 
 ## Results
+Result of original image sequence. 
 ![ ](images/nomolizedimg.gif "Result of original image sequence")
+Result of tracking all cells. 
 ![ ](images/enhance_images.gif "Result of tracking all cells")
-![ ](images/mitosis.gif "Result of tracking specific cell in mitosis")
+Result of tracking specific cell in mitosis. 
+![ ](images/mitosis_final.gif "Result of tracking specific cell in mitosis")
+Plot of tracking the mitosis cell. 
 ![ ](images/plotimg.gif "Plot of tracking the mitosis cell")
