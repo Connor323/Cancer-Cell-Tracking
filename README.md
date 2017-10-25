@@ -11,9 +11,19 @@ Python implementation on tracking cancer cell based on Li et al. [1](https://www
 2. Some explanation of the scripts:
 ```
 main.py // the main procedure including all steps.
+```
+```
 adaptivethresh.py // compute adaptive thresholding of image sequence in order to generate binary image for Nuclei segmentation.
+```
+```
 gvf.py // compute gradient vector field (GVF) to find the seeds for following watershed.
+```
+```
 watershed.py // segment cells
+```
+```
 graph_construction.py // generate a neighboring graph contraction using Delaunary Triangulation.
+```
+```
 matching.py // calculate feature vector for each cell and match cells. 
 ```
