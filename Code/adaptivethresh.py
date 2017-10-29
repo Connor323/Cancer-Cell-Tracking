@@ -36,11 +36,10 @@ class ADPTIVETHRESH():
 
         for img in self.images:
             img = cv2.GaussianBlur(img,(5,5),0).astype(np.uint8)
-            thresh = cv2.adaptiveThreshold(img, 1, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY,31,0)
+            _, thresh = cv2.threshold(img,threshold,1,cv2.THRESH_BINARY)
 
             # Using morphlogical operations to imporve the quality of result
             kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(9,9))
-            thresh = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel)
             thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
 
             out.append(thresh)
