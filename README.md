@@ -4,7 +4,7 @@ Python implementation on tracking cancer cell based on [Li et al.](https://www.n
 ## Usage
 1. The data can be found at [Cell Tracking Challenge Website](http://www.codesolorzano.com/Challenges/CTC/Datasets.html). 
 
-2. ipython notebook: to better show the algorithm step by step, besides the python scipts, I also create a ipython notebook to visualize the interim results.
+2. ipython notebook: to better show the algorithm step by step, besides the python scripts, I also create a ipython notebook to visualize the interim results.
 
 3. Some explanation of the scripts:
 ```Python
