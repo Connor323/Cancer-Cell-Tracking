@@ -2,7 +2,7 @@
 Python implementation on tracking cancer cell based on [Li et al.](https://www.ncbi.nlm.nih.gov/pubmed/19643704), which used watershed algorithm to segment cells and built a feature vector for cell tracking including the information of position, shape, spatial distribution and texture.  
 
 ## Usage
-1. The data can be found at [Cell Tracking Challenge Website](http://www.codesolorzano.com/Challenges/CTC/Datasets.html). 
+1. The data can be found at [Cell Tracking Challenge Website](http://celltrackingchallenge.net). 
 
 2. ipython notebook: to better show the algorithm step by step, besides the python scripts, I also create a ipython notebook to visualize the interim results.
 
